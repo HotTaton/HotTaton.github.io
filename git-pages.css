@@ -1,0 +1,34 @@
+.main-container {
+	margin-left: 70vmin;
+	margin-top: 40vmin;
+}
+
+h1 {	
+	position: relative;
+	padding-top: 3vmin;
+	font-family: 'Roboto', sans-serif;
+	animation: fadein-header 3s;
+}
+
+p {	
+	font-family: 'Roboto', sans-serif;
+	animation: fadein 3s;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	color: black;
+    text-decoration-color: darkgray;
+    text-decoration-style: dashed;
+}
+
+
+@keyframes fadein-header {
+    from { opacity: 0; padding-top: 0vmin; }
+    to   { opacity: 1; padding-top: 3vmin; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
