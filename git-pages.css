@@ -1,17 +1,22 @@
 .main-container {
 	margin: 40vmin auto;
+	font-family: 'Roboto', sans-serif;
 	max-width: 800px;	
 }
 
 h1 {
-	padding-top: 3vmin;
-	font-family: 'Roboto', sans-serif;
+	padding-top: 3vmin;	
 	animation: fadein-header 5s;
 }
 
-p {	
-	font-family: 'Roboto', sans-serif;
+p {		
 	animation: fadein 5s;
+}
+
+a {
+	color: black;
+    text-decoration-style: dashed;
+    text-decoration-color: darkgray;
 }
 
 @keyframes fadein-header {
